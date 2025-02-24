@@ -1,0 +1,8 @@
+.nav {
+  border: 1px solid red;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

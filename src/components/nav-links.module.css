@@ -1,0 +1,19 @@
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.link {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
+  text-transform: capitalize;
+}
+
+.active {
+  font-weight: bold;
+}
