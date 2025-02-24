@@ -19,3 +19,23 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.not-found {
+  height: 100%;
+  margin: 200px auto;
+  width: 80%;
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: -30px 0 10px;
+  }
+  p {
+    text-align: center;
+    font-size: 1.6rem;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
