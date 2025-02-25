@@ -5,4 +5,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
+}
+
+.logo {
+  color: white;
+  fill: white;
+  width: 100px;
+  background-color: white;
 }

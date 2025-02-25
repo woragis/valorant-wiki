@@ -1,8 +1,9 @@
 'use client'
 
-import { usePathname } from 'next/navigation'
-import styles from './nav-links.module.css'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
+
+import styles from './nav-links.module.css'
 
 export interface NavLinksInterface {
   title: string

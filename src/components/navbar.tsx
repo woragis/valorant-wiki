@@ -1,6 +1,8 @@
 import Link from 'next/link'
+
 import styles from './navbar.module.css'
 import NavLinks, { NavLinksInterface } from './nav-links'
+// import logo from '@/assets/valorant-logo.svg'
 
 export default function Navbar() {
   const links: NavLinksInterface[] = [
@@ -12,7 +14,10 @@ export default function Navbar() {
 
   return (
     <header className={styles.nav}>
-      <NavLinks links={links} />
+      <nav className={styles.nav}>
+        <Link href='/'>Valorant logo</Link>
+        <NavLinks links={links} />
+      </nav>
     </header>
   )
 }
